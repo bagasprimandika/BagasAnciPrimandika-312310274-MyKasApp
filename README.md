@@ -2,6 +2,9 @@
 
 MyKas adalah aplikasi mobile yang membantu mengelola kas di kelas, perumahan, dan tempat lainnya. Aplikasi ini memungkinkan pengguna untuk mencatat pemasukan dan pengeluaran, melihat laporan keuangan, serta mengelola transaksi kas dengan mudah.
 
+### Story Board
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/storyboard/storyboard.png" width="1500" >
+
 ## Palet Warna
 Aplikasi MyKas menggunakan palet warna yang dirancang untuk memberikan kesan profesional dan mudah dibaca:
 
