@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mykasapp</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="email1">Email</string>
+</resources>
