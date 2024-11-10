@@ -14,67 +14,80 @@ Aplikasi MyKas menggunakan palet warna yang dirancang untuk memberikan kesan pro
 ### a. Splash Screen
 Halaman awal aplikasi yang menampilkan logo MyKas berwarna merah dan hitam, dengan animasi loading singkat sebelum masuk ke halaman login atau utama.
 
-![Splash Screen](path/to/splash_screen_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp16.png" width="150" >
 
 ### b. Login
 Halaman untuk pengguna masuk menggunakan email dan kata sandi yang telah terdaftar. Pengguna dapat mengakses aplikasi setelah berhasil login. Terdapat juga opsi "Lupa Kata Sandi" jika pengguna lupa kredensial mereka.
 
-![Login Screen](path/to/login_screen_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp3.png" width="150" />
 
 ### c. Sign Up
 Halaman pendaftaran bagi pengguna baru yang belum memiliki akun. Formulir ini meminta informasi seperti nama, email, dan kata sandi untuk menyelesaikan pendaftaran.
 
-![Sign Up Screen](path/to/sign_up_screen_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp5.png" width="150" />
 
 ### d. Tentang Aplikasi
 Halaman yang menjelaskan tujuan dan fungsi aplikasi MyKas. Berisi deskripsi aplikasi serta informasi pengembang untuk membantu pengguna memahami aplikasi.
 
-![Tentang Aplikasi](path/to/about_app_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/17.png" width="150" />
 
 ### e. Main Menu
 Halaman utama setelah login, berisi berbagai pilihan untuk mengakses fitur utama aplikasi, seperti Kelola Kas, Laporan Keuangan, Riwayat Pengeluaran, dan Pengaturan.
 
-![Main Menu](path/to/main_menu_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp9.png" width="150" />
 
 ### f. Profil
 Halaman yang menampilkan informasi pengguna seperti nama, email, dan foto profil. Pengguna dapat mengedit informasi pribadi mereka di halaman ini.
 
-![Profil](path/to/profile_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp14.png" width="150" />
 
 ### g. Form Kas
 Formulir untuk menambah atau mengedit kas yang ada. Pengguna dapat mengisi detail seperti nama kas, nominal kas, dan keterangan.
 
-![Form Kas](path/to/form_kas_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp6.png" width="150" />
 
 ### h. Nama Kas
 Halaman yang memungkinkan pengguna untuk memberi nama pada kas tertentu, misalnya "Kas Kelas A" atau "Kas RT 05". Nama kas digunakan untuk identifikasi kas yang sedang dikelola.
 
-![Nama Kas](path/to/nama_kas_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp10.png" width="150" />
 
 ### i. Pengeluaran
 Formulir untuk mencatat pengeluaran yang terjadi dalam kas. Pengguna dapat memasukkan jumlah pengeluaran, keterangan transaksi, dan tanggal pengeluaran.
 
-![Pengeluaran](path/to/pengeluaran_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp4.png" width="150" />
 
 ### j. Kelola Kas
 Halaman utama untuk mengelola kas yang memungkinkan pengguna untuk menambah pemasukan, mencatat pengeluaran, dan memeriksa saldo kas yang tersedia.
 
-![Kelola Kas](path/to/kelola_kas_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp7.png" width="150" />
 
 ### k. Detail Kas
 Halaman yang menampilkan rincian kas, termasuk total pemasukan, total pengeluaran, dan saldo terkini. Pengguna dapat melihat seluruh transaksi terkait kas di sini.
 
-![Detail Kas](path/to/detail_kas_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp1.png" width="150" />
 
 ### l. Riwayat Pengeluaran
 Menampilkan daftar transaksi pengeluaran yang telah dicatat sebelumnya. Setiap transaksi dilengkapi dengan informasi tanggal, jumlah, dan keterangan.
 
-![Riwayat Pengeluaran](path/to/riwayat_pengeluaran_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp15.png" width="150" />
 
 ### m. Laporan Keuangan
 Halaman yang menyajikan laporan keuangan dalam bentuk grafik atau tabel untuk memudahkan pengguna menganalisis pemasukan, pengeluaran, dan saldo kas secara keseluruhan.
 
-![Laporan Keuangan](path/to/laporan_keuangan_image.png)
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp8.png" width="150" />
 
 ### n. Pengaturan
-Halaman pengaturan yang memungkinkan pengguna untuk mengubah preferensi aplikasi se
+Halaman pengaturan yang memungkinkan pengguna untuk mengubah preferensi aplikasi seperti notifikasi, bahasa, tema, serta mengelola akun pengguna.
+
+<img src="https://github.com/bagasprimandika/my-kasapp/blob/main/UI/mykasapp11.png" width="150" />
+
+## Teknologi yang Digunakan
+- Android Studio
+- Java/Kotlin
+- Firebase (untuk autentikasi pengguna dan penyimpanan data)
+
+## Cara Memulai
+
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/username/MyKas.git
