@@ -1,11 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:ignore="ExtraText">
+
+    <!-- Menampilkan gambar splash screen di tengah -->
     <ImageView
-        android:id="@+id/splash_logo"
+        android:id="@+id/splashImage"
+        android:layout_width="176dp"
+        android:layout_height="175dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/logo"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/splashimage" />
+    <!-- Menambahkan oval di bawah kanan kecil layar -->
+    <!-- Menambahkan oval di ataskanan kecil atas layar -->
+
+
+    <!-- Menambahkan oval di pojok atas layar -->
+
+    <ImageView
+        android:id="@+id/ovalShape3"
+        android:layout_width="76dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginBottom="73dp"
+        android:src="@drawable/oval_shape"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/ovalShape5"
+        android:layout_width="76dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="632dp"
+        android:src="@drawable/oval_shape"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/ovalShape"
+        android:layout_width="275dp"
+        android:layout_height="279dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-73dp"
+        android:layout_marginEnd="-54dp"
+        android:src="@drawable/oval_shape" />
+
+    <!-- Menambahkan oval di pojok kri bawah layar  -->
+
+    <ImageView
+        android:id="@+id/ovalShape"
+        android:layout_width="285dp"
+        android:layout_height="279dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-58dp"
+        android:layout_marginBottom="-64dp"
+        android:src="@drawable/oval_shape"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Menambahkan oval di bawah setengah atas layar -->
+
+    <ImageView
+        android:id="@+id/ovalShape"
+        android:layout_width="106dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="-68dp"
+        android:src="@drawable/oval_shape"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Menambahkan oval di pojok atas setengah layar -->
+    <ImageView
+        android:id="@+id/ovalShape4"
+        android:layout_width="111dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginBottom="654dp"
+        android:rotation="182"
+        android:src="@drawable/oval_shape"
+        tools:ignore="DuplicateIds" />
+    <!-- Versi aplikasi di bagian bawah layar -->
+    <TextView
+        android:id="@+id/version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/todo" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"
+        android:text="versi_1_0_0"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
 </RelativeLayout>
+

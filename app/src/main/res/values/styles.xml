@@ -3,9 +3,15 @@
     <!-- Base application theme -->
     <style name="Theme.MyKas" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme attributes here -->
-        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimary">#BD0000</item>
         <item name="colorPrimaryDark">#3700B3</item>
         <item name="colorAccent">#03DAC5</item>
         <item name="android:windowBackground">#FFFFFF</item>
     </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_launcher_foreground</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>
