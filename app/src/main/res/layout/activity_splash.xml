@@ -14,7 +14,7 @@
         android:layout_centerInParent="true"
         android:contentDescription="TODO"
         android:scaleType="fitCenter"
-        android:src="@mipmap/splashimage" />
+        android:src="@drawable/ic_mykas_logo" />
     <!-- Menambahkan oval di bawah kanan kecil layar -->
     <!-- Menambahkan oval di ataskanan kecil atas layar -->
 
@@ -38,8 +38,8 @@
         android:layout_height="51dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="95dp"
-        android:layout_marginBottom="632dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="612dp"
         android:src="@drawable/oval_shape"
         tools:ignore="DuplicateIds" />
 

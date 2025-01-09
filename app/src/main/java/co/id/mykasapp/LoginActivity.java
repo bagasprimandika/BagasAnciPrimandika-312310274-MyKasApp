@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Redirect ke SignUpActivity
         textViewSignup.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
+            Intent intent = new Intent(LoginActivity.this, co.id.mykasapp.SignUpActivity.class);
             startActivity(intent);
         });
     }
@@ -75,20 +75,22 @@ public class LoginActivity extends AppCompatActivity {
         String password = editTextPassword.getText().toString().trim();
 
         // Ambil data email dan password yang disimpan saat signup
-        SharedPreferences preferences = getSharedPreferences("MyKasPreferences", Context.MODE_PRIVATE);
-        String savedEmail = preferences.getString("EMAIL", null);
-        String savedPassword = preferences.getString("PASSWORD", null);
+        SharedPreferences sharedPreferences = getSharedPreferences("MyKasApp", MODE_PRIVATE);
+        String storedFullName = sharedPreferences.getString("fullName", "");
+        String storedEmailMobile = sharedPreferences.getString("emailMobile", "");
+        String storedPhoneNumber = sharedPreferences.getString("phoneNumber", "");
+        String storedPassword = sharedPreferences.getString("password", "");  // Menambahkan password
 
         // Tambahkan log untuk memeriksa nilai savedEmail dan savedPassword
-        Log.d("LoginActivity", "Saved Email: " + savedEmail);
-        Log.d("LoginActivity", "Saved Password: " + savedPassword);
+        Log.d("LoginActivity", "Stored Email: " + storedEmailMobile);
+        Log.d("LoginActivity", "Stored Password: " + storedPassword);
 
         // Periksa apakah email dan password cocok
-        if (savedEmail == null || savedPassword == null || savedEmail.isEmpty() || savedPassword.isEmpty()) {
-            Toast.makeText(LoginActivity.this, "Email atau password salah", Toast.LENGTH_SHORT).show();
-        } else if (email.equals(savedEmail) && password.equals(savedPassword)) {
+        if (storedEmailMobile.isEmpty() || storedPassword.isEmpty()) {
+            Toast.makeText(LoginActivity.this, "Email atau password tidak ditemukan", Toast.LENGTH_SHORT).show();
+        } else if (email.equals(storedEmailMobile) && password.equals(storedPassword)) {
             // Login berhasil, simpan status login
-            SharedPreferences.Editor editor = preferences.edit();
+            SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putBoolean("isLoggedIn", true);
             editor.apply();
 

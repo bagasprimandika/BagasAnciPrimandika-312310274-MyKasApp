@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back button" />
+
+            <TextView
+                android:id="@+id/header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="My Account"
+                android:textSize="20sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <!-- Profile Picture -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_profile"
+                android:contentDescription="Profile Image"
+                android:background="@drawable/circle_shape" />
+
+            <EditText
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Your Name"
+                android:fontFamily="@font/open_sans_bold"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/full_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="@drawable/red_border"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#D9D9D9"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_marginHorizontal="20dp"/>
+
+        <EditText
+            android:id="@+id/email_or_mobile_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email or Mobile"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="@drawable/red_border"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#D9D9D9"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_marginHorizontal="20dp"/>
+
+        <EditText
+            android:id="@+id/phone_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="@drawable/red_border"
+            android:inputType="phone"
+            android:fontFamily="@font/open_sans_regular"
+            android:textColor="#000000"
+            android:textColorHint="#D9D9D9"
+            android:layout_marginHorizontal="20dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="#BD0000"
+            android:text="Simpan"
+            android:background="@drawable/red_button"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="#FFFFFF"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>

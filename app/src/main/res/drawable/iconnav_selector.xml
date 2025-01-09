@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ikon putih untuk item yang dipilih -->
+    <item android:drawable="@drawable/ic_home_white" android:state_checked="true" />
+    <!-- Ikon asli untuk item yang tidak dipilih -->
+    <item android:drawable="@drawable/ic_home"/>
+    <!-- Ikon putih untuk item yang dipilih -->
+    <item android:drawable="@drawable/ic_report_white" android:state_checked="true" />
+    <!-- Ikon asli untuk item yang tidak dipilih -->
+    <item android:drawable="@drawable/ic_report"/>
+    <!-- Ikon putih untuk item yang dipilih -->
+    <item android:drawable="@drawable/ic_settings_white" android:state_checked="true" />
+    <!-- Ikon asli untuk item yang tidak dipilih -->
+    <item android:drawable="@drawable/ic_settings" />
+</selector>

@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:background="@color/white"
+    android:fontFamily="@font/open_sans_bold">
+
+    <!-- Back button and title -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_back"
+            android:contentDescription="Back button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Detail Kas"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/open_sans_bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Detail Kas Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_card"
+        android:padding="16dp"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DETAIL KAS"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/nama_kas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama kas :"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/jumlah_anggota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah anggota :"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/frekuensi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frekuensi pembayaran :"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/nominal_per_orang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nominal/orang :"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Saldo Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/teal_700">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SALDO :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RP.-,"
+                android:background="#"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/light_gray"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Riwayat Pengeluaran Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Pengeluaran"
+        android:id="@+id/save_button"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#BD0000"
+        android:background="@drawable/red_button"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="#FFFFFF"/>
+    -
+</LinearLayout>

@@ -6,4 +6,12 @@
     <string name="login">Login</string>
     <string name="email1">Email</string>
     <string name="versi_1_0_0">versi 1.0.0</string>
+    <string name="nama">Nama</string>
+
+
+<string-array name="language_options">
+    <item>Indonesia</item>
+    <item>English</item>
+    <item>Español</item>
+</string-array>
 </resources>

@@ -5,7 +5,7 @@
         <!-- Customize your theme attributes here -->
         <item name="colorPrimary">#BD0000</item>
         <item name="colorPrimaryDark">#3700B3</item>
-        <item name="colorAccent">#03DAC5</item>
+        <item name="colorAccent">#1e1e1e</item>
         <item name="android:windowBackground">#FFFFFF</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
