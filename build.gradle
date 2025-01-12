@@ -1,10 +1,11 @@
+// Project-level build.gradle (root project)
 buildscript {
     repositories {
-        google()
-        mavenCentral()
+        google()  // Add the Google repository
+        mavenCentral()  // You can also add Maven Central as a backup repository
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.3.1'  // Pastikan versi ini terbaru
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.22"
+        classpath 'com.android.tools.build:gradle:8.7.2'
+        // Specify the version of the Android Gradle plugin
     }
 }
