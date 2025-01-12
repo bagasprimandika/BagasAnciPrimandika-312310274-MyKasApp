@@ -1,3 +1,15 @@
+
+```
+Mata Kuliah : Pemrograman Mobile 1
+Dosen       : Donny Maulana, S.Kom., M.M.S.I.
+Nama        : Bagas Anci Primandika
+NIM         : 312310274
+```
+--------------------------
+
+
+
+
 # MyKas - Aplikasi Pengelola Kas
 
 MyKas adalah aplikasi mobile yang membantu mengelola kas di kelas, perumahan, dan tempat lainnya. Aplikasi ini memungkinkan pengguna untuk mencatat pemasukan dan pengeluaran, melihat laporan keuangan, serta mengelola transaksi kas dengan mudah.
